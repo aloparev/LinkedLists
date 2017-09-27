@@ -1,8 +1,8 @@
 # LinkedLists
 self-made singly/doubly linked list with generics &amp; some basic methods + search
 
-singly linked list with student-objects
-student-object attributes are: first name, last name, student number and degree program
+singly linked list (SLL) with student-objects <br/>
+student-object attributes are: first name, last name, student number and degree program <br/>
 it is possible to:
   - compose new elements
   - add them to the head V tail
