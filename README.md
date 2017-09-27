@@ -1,6 +1,8 @@
 # LinkedLists
 self-made singly/doubly linked list with generics &amp; some basic methods + search
 
+both lists are wrapped in a console menu
+
 singly linked list (SLL) with student-objects <br/>
 student-object attributes are: first name, last name, student number and degree program <br/>
 it is possible to:
