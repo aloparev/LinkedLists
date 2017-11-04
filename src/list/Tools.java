@@ -17,8 +17,8 @@ public class Tools {
 	
 	public static int intCheck (int lowerBound, int upperBound) {
 		if (lowerBound == 0 && upperBound == 0) {
-			lowerBound = -2147483648;
-			upperBound = 2147483647;
+			lowerBound = Integer.MIN_VALUE;
+			upperBound = Integer.MAX_VALUE;
 		}
 		
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -56,7 +56,7 @@ public class Tools {
     }
     
     public static String stringCheck() {
-    	Pattern pt = Pattern.compile("[a-zA-Z\\-\\']+");
+    	Pattern pt = Pattern.compile("[a-zA-Z\\-\\']+"); // <-> and <'> are allowed
     	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String in = "";
         boolean loop;
